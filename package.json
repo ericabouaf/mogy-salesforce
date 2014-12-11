@@ -1,7 +1,7 @@
 {
   "name": "mogy-salesforce",
   "main": "./index.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Salesforce activities for Mogy",
   "author": {
     "name": "Eric Abouaf",
@@ -26,6 +26,20 @@
       "defaultTaskScheduleToStartTimeout": "NONE",
       "defaultTaskStartToCloseTimeout": "NONE",
       "description": "Perform a Salesforce Query"
-    }
+  },
+  "salesforce_create": {},
+  "salesforce_delete": {},
+  "salesforce_deleted": {},
+  "salesforce_describe": {},
+  "salesforce_queryAll": {},
+  "salesforce_queryMore": {},
+  "salesforce_recent": {},
+  "salesforce_retrieve": {},
+  "salesforce_search": {},
+  "salesforce_update": {},
+  "salesforce_upsert": {},
+  "salesforce_identity": {},
+  "salesforce_describeGlobal": {},
+  "salesforce_updated": {}
   }
 }
